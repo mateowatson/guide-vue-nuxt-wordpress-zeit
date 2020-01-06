@@ -1,13 +1,16 @@
 site_name: Build Headless WordPress Sites with Nuxt JS and Deploy on Zeit Now
-theme: readthedocs
-site_url: null
-repo_url: null
+theme:
+    name: 'readthedocs'
+    highlightjs: true
+site_url: https://mateowatson.github.io/guide-vue-nuxt-wordpress-zeit/
+repo_url: https://github.com/mateowatson/guide-vue-nuxt-wordpress-zeit
 site_description: The objective of this book is to guide the reader through making headless WordPress websites using Vue with Nuxt for server side rendering and deploying on the Zeit Now cloud platform.
 site_author: Matt Watson
-copyright: "&copy; 2020 Matt Watson"
+copyright: "&copy;2020 Matt Watson"
 google_analytics: null
 markdown_extensions:
     - toc:
         permalink: true
     - smarty
     - footnotes
+    - admonition
