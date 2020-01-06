@@ -7,32 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The objective of this book is to guide the reader through making headless WordPress websites using Vue with Nuxt for server side rendering and deploying on the Zeit Now cloud platform.">
   <meta name="author" content="Matt Watson">
-  
-  <title>Build Headless WordPress Sites with Nuxt JS and Deploy on Zeit Now</title>
-  
-
-  <link rel="shortcut icon" href="./img/favicon.ico">
-
-  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Overview - Build Headless WordPress Sites with Nuxt JS and Deploy on Zeit Now</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="./css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="./css/highlight.css">
-
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "None";
+    var mkdocs_page_name = "Overview";
     var mkdocs_page_input_path = "index.md";
-    var mkdocs_page_url = "/";
+    var mkdocs_page_url = "/guide-vue-nuxt-wordpress-zeit/";
   </script>
   
-  <script src="./js/jquery-2.1.1.min.js"></script>
-  <script src="./js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="./js/highlight.pack.js"></script>
-  <script src="./js/theme.js"></script> 
-
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -46,38 +39,28 @@
         <a href="." class="icon icon-home"> Build Headless WordPress Sites with Nuxt JS and Deploy on Zeit Now</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        <ul class="current">
+	<ul class="current">
+	  
           
-            <li>
-    <li class="toctree-l1 current">
-        <a class="current" href=".">Home</a>
-        
-            <ul>
+            <li class="toctree-l1 current">
+		
+    <a class="current" href=".">Overview</a>
+    <ul class="subnav">
             
-                <li class="toctree-l3"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
-                
-                    <li><a class="toctree-l4" href="#commands">Commands</a></li>
-                
-                    <li><a class="toctree-l4" href="#project-layout">Project layout</a></li>
-                
-            
-            </ul>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="introduction/">Introduction</a>
-        
-    </li>
-<li>
+    <li class="toctree-l2"><a href="#about-the-author">About the author</a></li>
+    
+
+    <li class="toctree-l2"><a href="#what-were-building">What we're building</a></li>
+    
+
+    </ul>
+	    </li>
           
         </ul>
       </div>
@@ -101,8 +84,11 @@
     
       
     
-    <li>Home</li>
+    <li>Overview</li>
     <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/mateowatson/guide-vue-nuxt-wordpress-zeit/edit/master/docs/index.md"
+          class="icon icon-github"> Edit on GitHub</a>
       
     </li>
   </ul>
@@ -111,32 +97,21 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+                <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This book is a work in progress. It is not complete and may change drastically. I&rsquo;m writing it in &ldquo;real-time&rdquo; on a public GitHub repo in order to make it easier to share with my friends and any others who are interested.</p>
+</div>
+<p>The objective of this book is to guide the reader through making headless WordPress websites using Vue with Nuxt for server side rendering and deploying on the Zeit Now cloud platform.</p>
+<h1 id="about-the-author">About the author<a class="headerlink" href="#about-the-author" title="Permanent link">&para;</a></h1>
+<p>My name is Matt Watson, and I have been making custom WordPress websites since 2016. Most of those were &ldquo;standard&rdquo; informational websites with maybe one or two extra functionalities, such as making custom plugins to add different admin options or adding scripts to interact with third-party APIs.</p>
+<p>One of the most interesting projects I have worked on involved using WordPress as a central source of data for different websites, running on different domains, with different designs. There were many challenges, but I learned a lot. Over time, I have decided it would be fun and hopefully useful to others to write an exhaustive guide on how to build these types of websites.</p>
+<h1 id="what-were-building">What we&rsquo;re building<a class="headerlink" href="#what-were-building" title="Permanent link">&para;</a></h1>
+<p>Before we begin, let&rsquo;s nail down exactly what we&rsquo;re going to build. I have tried to make the example project as real-world as possible with plenty of details and information for troubleshooting potenntial problems.</p>
+<p>We&rsquo;re going to build three websites that depend on data from one WordPress instance and use Node/JavaScript AJAX requests to the WordPress REST API for rendering the frontend.</p>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="introduction/" class="btn btn-neutral float-right" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-    </div>
   
 
   <hr/>
@@ -144,13 +119,13 @@ docs/
   <div role="contentinfo">
     <!-- Copyright etc -->
     
-      <p>&copy; 2020 Matt Watson</p>
+      <p>&copy;2020 Matt Watson</p>
     
   </div>
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
@@ -158,20 +133,23 @@ docs/
 
   </div>
 
-<div class="rst-versions" role="note" style="cursor: pointer">
+  <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
+          <a href="https://github.com/mateowatson/guide-vue-nuxt-wordpress-zeit/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span style="margin-left: 15px"><a href="introduction/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 0.15.3
-Build Date UTC : 2020-01-05 20:13:01
+MkDocs version : 1.0.4
+Build Date UTC : 2020-01-06 05:09:19
 -->
